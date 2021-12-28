@@ -1,8 +1,39 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="DatabaseView.OpenDdlInConsole">
     <keyboard-shortcut first-keystroke="shift ctrl alt b" />
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="EditorToggleCase" />
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Jdbc.OpenEditor.Data">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="JumpToLastWindow" />
+  <action id="MoveLineDown" />
+  <action id="MoveLineUp" />
   <action id="ParameterInfo" />
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="SmartSelect" />
+  <action id="TableResult.GrowSelection" />
+  <action id="UsageFiltering.WriteAccess" />
+  <action id="XDebugger.MoveWatchDown" />
 </keymap>
