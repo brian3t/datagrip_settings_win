@@ -3,5 +3,10 @@
     <driver id="sqlserver.ms">
       <artifact id="SQL Server" name="SQL Server" use="true" version="9.4.0" />
     </driver>
+    <driver id="java.sql.Driver" name="fm jdbc" driver-class="com.filemaker.jdbc.Driver">
+      <library>
+        <url>file://C:/tmp/mega/projects/laby/fmjdbc.jar</url>
+      </library>
+    </driver>
   </component>
 </application>
