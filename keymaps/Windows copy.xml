@@ -4,6 +4,10 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="Console.TableResult.EditFilterCriteria">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="Console.TableResult.Transpose">
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
@@ -43,6 +47,7 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="RerunTests" />
+  <action id="SaveAs" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="SmartSelect" />
   <action id="TableResult.GrowSelection" />
