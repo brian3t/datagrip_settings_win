@@ -3,6 +3,10 @@
     <driver id="sqlserver.ms">
       <artifact id="SQL Server" name="SQL Server" use="true" version="9.4.0" />
     </driver>
+    <driver id="azure.ms">
+      <artifact id="SQL Server" name="SQL Server" use="true" version="10.2.1" />
+      <artifact id="MSAL4J" name="MSAL4J" use="true" version="1.13.0" />
+    </driver>
     <driver id="java.sql.Driver" name="fm jdbc" driver-class="com.filemaker.jdbc.Driver">
       <library>
         <url>file://C:/tmp/mega/projects/laby/fmjdbc.jar</url>
